@@ -1,0 +1,23 @@
+.dark\:bg-gray-800
+{
+    color:white;
+    background-color: transparent;
+}
+.dark\:bg-gray-800\/50 
+{
+    background-color: transparent;
+}
+.bg{background: #434343;
+background: linear-gradient(125deg, rgba(67, 67, 67, 1) 0%, rgba(0, 0, 0, 1) 100%);}
+.card
+{
+    transition: ease, 0.2s !important;
+}
+.card:hover
+{
+    transform: scale(1.05);
+}
+.z-30
+{
+    z-index: 2;
+}

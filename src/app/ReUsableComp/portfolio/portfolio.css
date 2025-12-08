@@ -1,0 +1,12 @@
+.max-w-sm 
+{
+    max-width: none;
+}
+.bg-neutral-primary-soft
+{
+    background-color: transparent !important;
+}
+.border-default 
+{
+    border-color: transparent !important;
+}

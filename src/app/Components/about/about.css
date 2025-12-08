@@ -1,0 +1,13 @@
+.fn
+{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white
+}
+.test
+{
+    font-family: "Inter Tight", sans-serif;
+}
+section{background: #434343;
+background: linear-gradient(167deg, rgba(67, 67, 67, 1) 29%, rgba(0, 0, 0, 1) 100%);}

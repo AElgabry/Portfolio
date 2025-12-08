@@ -1,0 +1,11 @@
+section
+{
+    background: #434343;
+background: linear-gradient(354deg, rgba(67, 67, 67, 1) 29%, rgba(0, 0, 0, 1) 100%);
+}
+.fn
+{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}

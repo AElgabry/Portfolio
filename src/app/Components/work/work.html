@@ -1,0 +1,51 @@
+<section>
+    <div  id="work">
+        <h1 data-aos="fade-up" class="fn text-center text-6xl py-3">My Work</h1>
+    <p data-aos="fade-up" class="text-gray-400  text-center mx-auto text-xl w-3/4">A quick peek at some of the <br> projects I’ve loved working on.</p>
+    <div class="grid lg:grid-cols-2 grid-cols-1  border-0 mycontainer">
+        <app-portfolio
+        data-aos="fade-right"
+        data-aos-duration="1000" 
+        data-aos-delay="100"
+        [image]="'/Images/pexels-emirkhan-bal-221704-953864.jpg'" 
+        [logo]="'fa-solid fa-cart-shopping fa-lg me-1.5 text-white'" 
+        [title]="'ECommerce Website.'" 
+        [description]="'Fully responsive design delivering a professional, stylish user experience. Built on a modular architecture for easy API integration, ensuring high performance and adaptability across all devices.'" 
+        [details]="'https://github.com/AElgabry/ECommerce'" 
+        [demo]="'https://e-commerce-eight-plum-71.vercel.app/'"
+        ></app-portfolio>
+        <app-portfolio 
+        data-aos="fade-left"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+        [image]="'/Images/pexels-joshsorenson-391522.jpg'" 
+        [logo]="'fa-regular fa-cloud fa-lg me-1.5 text-white'" 
+        [title]="'Weather Website.'" 
+        [description]="'Stylish and professional real-time weather data visualization. Built on a modular architecture, it uses high-speed API integration to deliver accurate, elegantly presented forecasts across all platforms.'" 
+        [details]="'https://github.com/AElgabry/Weather-Website'" 
+        [demo]="'https://aelgabry.github.io/Weather-Website/'"
+        ></app-portfolio><app-portfolio 
+        data-aos="fade-right"
+        data-aos-delay="300"
+        [image]="'/Images/pexels-fauxels-3183150.jpg'" 
+        [logo]="'fa-solid fa-people-group fa-lg me-1.5 text-white'" 
+        [title]="'Team Vitals'" 
+        [description]="'Stylish and professional team visualization design. Fully responsive and built using Bootstrap, this design utilizes clean UI principles to elegantly showcase team structures across all devices.'" 
+        [details]="'https://github.com/AElgabry/Animated-Resposive'" 
+        [demo]="'https://aelgabry.github.io/Animated-Resposive/'"
+        ></app-portfolio><app-portfolio 
+        data-aos="fade-left"
+        data-aos-delay="100"
+        [image]="'/Images/pexels-pixabay-260922.jpg'" 
+        [logo]="'fa-solid fa-utensils fa-lg me-1.5 text-white'" 
+        [title]="'Restaurant Website.'" 
+        [description]="'Stylish, professional, and fully responsive restaurant presence. The design provides a seamless, high-quality user experience for browsing menus and making reservations across all devices.'" 
+        [details]="'https://github.com/AElgabry/Mealify-HTML-CSS'" 
+        [demo]="'https://aelgabry.github.io/Mealify-HTML-CSS/'"
+        ></app-portfolio>
+    </div>
+    <div id="contact" class="text-center py-3">
+        <a href="https://github.com/AElgabry" target="_blank"><button class="btn w-3/6"><i class="fa-solid fa-circle fa-2xs me-1 text-green-600 "></i>All Projects</button></a>
+    </div>
+    </div>
+</section >

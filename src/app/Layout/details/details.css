@@ -1,0 +1,19 @@
+ul
+{
+    list-style: disc;
+    list-style-position: inside ;
+    padding-left: 20px;
+}
+.s
+{
+    background-image: url(/Images/pexels-emeric07-21336648.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    transition: ease-in-out,3s;
+}
+.trans
+{
+    background-color:rgba(0, 0, 0, 0.6) ;
+}
