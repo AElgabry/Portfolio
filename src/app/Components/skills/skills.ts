@@ -1,6 +1,5 @@
 import { AfterViewInit, Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
 import Swiper from 'swiper/bundle';
-import 'swiper/css/bundle';
 @Component({
   selector: 'app-skills',
   imports: [],
