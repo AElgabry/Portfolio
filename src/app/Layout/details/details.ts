@@ -23,22 +23,10 @@ test() {
     {
       next: (res) => {
         this.cardId = res.get("id");
-        
-        if(this.cardId == "3") {
-          setTimeout(() => {
-            this.animation();
-          }, 0);
-        }
       },
       error: (err) => {console.log(err);}
     }
   )
 }
 
-animation() {
-  const element = document.getElementById("coming");
-  if (element) {
-    element.style.backgroundImage = "url('/Images/Untitled design (1).png')";
-  }
-}
 }
