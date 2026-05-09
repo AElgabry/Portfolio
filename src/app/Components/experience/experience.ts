@@ -21,4 +21,3 @@ export class Experience implements OnInit,AfterViewInit {
 }
 
 
-
