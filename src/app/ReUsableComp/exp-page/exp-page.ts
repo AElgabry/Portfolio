@@ -1,9 +1,8 @@
 import { Component, Input } from '@angular/core';
-import { Navbar } from "../../Components/navbar/navbar";
 
 @Component({
   selector: 'app-exp-page',
-  imports: [Navbar],
+  imports: [],
   templateUrl: './exp-page.html',
   styleUrl: './exp-page.css',
 })

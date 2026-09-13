@@ -6,33 +6,35 @@
     [compDesc]="'Vijua is a leading international software company, renowned for its Kotobee platform. This powerful system provides end-to-end solutions for creating and securely distributing interactive e-books and learning content. Its global standing is confirmed by serving major clients like Harvard University and large corporations such as Toyota.Recognized as a leader in the field, Vijua empowers organizations—from educators to corporate trainers—to quickly and cost-effectively produce customized, multi-platform digital content. The companys focus on secure, high-quality, and interactive solutions reinforces its role as a pivotal innovator in the global market for knowledge sharing and e-learning.'"
     [empType]="'Full Time'"
     [period]="'June 2025 - Current'"
-    [location]="'Remote'"
-    [roleDesc]="'As a Technical Support Engineer, my role was centered on ensuring a seamless and functional experience for every customer. I expertly managed the full cycle of technical issues, from the initial support ticket through to resolution, acting as the primary point of contact and customer advocate. A key part of my function was serving as the critical link between user feedback and the development team, meticulously translating customer-reported software bugs into actionable technical reports to drive product stability and improvement. Furthermore, I consistently delivered real-time solutions through live chat, significantly enhancing immediate user satisfaction and minimizing disruption. My work ensured users felt heard while contributing directly to product quality.'" 
+    [location]="'Remote'",
+    [roleDesc]="`As a Technical Support Engineer, I owned the full lifecycle of customer reported technical issues, from initial ticket through resolution, acting as the primary point of contact and advocate for each user. I diagnosed software defects ranging from simple Tier 1 issues to more complex Tier 2 problems, working through reported symptoms, reproducing issues, and isolating root causes before escalating to engineering.
+
+A key part of the role was translating often vague or non-technical user reports into clear, structured bug reports for the development team, including reproduction steps and expected versus actual behavior, since report quality directly affected how quickly issues got fixed. I also handled a high volume of live chat support, delivering real time troubleshooting while managing tickets through platforms like Zendesk and Jira and consistently meeting SLA targets. I additionally contributed to the internal knowledge base, documenting common issues and resolutions to support both the team and self-service for users.`"
     [title]="'Technical Support Engineer'"
     [CR]="'My Role'"
     >
     <div class="mb-4">
-        <h3 class="text-white">Technical and Troubleshooting Skills:</h3>
+        <h3 class="text-white">Diagnostics & Issue Resolution:</h3>
         <ul class="text-gray-300 text-sm">
-            <li>Advanced Root Cause Analysis (RCA): Expertise in diagnosing, isolating, and solving Tier 1 and Tier 2 software defects.</li>
-            <li>Systematic Bug Reporting: Skillfully translating complex user issues into structured, actionable reports for the Development Team.</li>
-            <li>Ticketing System Management: High proficiency in CRM platforms (e.g., Zendesk, Jira) for managing high-volume support queues and tracking issue lifecycles.</li>
+            <li>Root Cause Analysis: diagnosing, isolating, and resolving Tier 1/Tier 2 software defects</li>
+            <li>Bug Reporting: translating complex user issues into structured, actionable reports for engineering teams</li>
+            <li>Ticketing System Management: managing high volume support queues and issue lifecycles in platforms like HelpDesk and Trello</li>
         </ul>
     </div>
     <div class="mb-4">
-        <h3 class="text-white">Communication and Customer Advocacy:</h3>
+        <h3 class="text-white">Customer-Facing Communication</h3>
         <ul class="text-gray-300 text-sm">
-            <li>Real-Time Problem Solving: Delivering rapid, effective technical support and guidance via live chat.</li>
-            <li>Cross-Functional Liaison: Serving as the critical communication link between end-users and the Engineering Department.</li>
-            <li>Conflict Resolution & De-escalation: Maintaining professionalism and high customer satisfaction (CSAT) during urgent or challenging interactions.</li>
-            <li>Technical Translation: Explaining complex technical workarounds and resolutions clearly to non-technical users.</li>
+            <li>Real Time Problem Solving: delivering fast, effective troubleshooting via live chat using Tawk.to</li>
+            <li>Cross-Functional Liaison: bridging communication between end-users and the engineering team to ensure issues were understood and prioritized correctly</li>
+            <li>Technical Translation: explaining complex technical resolutions clearly to non-technical users</li>
         </ul>
     </div>
     <div class="pb-5">
-        <h3 class="text-white">Workflow and Organizational Skills:</h3>
+        <h3 class="text-white">Process & Efficiency</h3>
         <ul class="text-gray-300 text-sm">
-            <li>SLA Adherence: Proven ability to prioritize tasks and manage time to consistently meet service level agreements (SLAs) for ticket response and resolution.</li>
-            <li>Process Documentation: Contributing to internal knowledge bases by writing detailed articles, improving team efficiency and supporting self-service.</li>
+            <li>Conflict Resolution & De-escalation: maintaining professionalism and high customer satisfaction during urgent or difficult interactions</li>
+            <li>SLA Adherence: prioritizing workload to consistently meet response and resolution targets</li>
+            <li>Process Documentation: writing internal knowledge base articles to improve team efficiency and support self-service</li>
         </ul>
     </div>
     </app-exp-page>
@@ -74,24 +76,48 @@
 }
 @else if (cardId=="3") 
 {
-    <div id="coming" class="s">
-        <div class="absolute top-0 start-0 end-0 bottom-0 trans flex items-center justify-center">
-            <h1 class="text-white tracking-[30px] text-2xl font-bold p-14 text-center">COMING SOON</h1>
-        </div>
+     <app-exp-page
+    [empType]="'Training'"
+    [period]="'Mar 2025 - Aug 2026'"
+    [compDesc]="'Route Academy is a future-focused tech education provider and talent accelerator committed to equipping individuals with the practical skills, mindset, and real-world experience needed to thrive in the ever-evolving digital economy. We specialize in industry-aligned bootcamps, upskilling programs, and career support to launch successful tech careers and build high-impact software professionals.'"
+    [location]="'Remote'"
+    [comp]="'Route Academy'",
+    [roleDesc]="`I independently designed and built two complete backend applications from scratch: a Gym Management System (ASP.NET Core MVC) covering trainer/member management, session scheduling, and role-based access control, and a RESTful ECommerce API (ASP.NET Core, Onion Architecture) covering product catalog, a Redis-backed basket, order processing, authentication, and Stripe payments. For both, I owned the full lifecycle — data modeling, layered architecture, business logic, and debugging.
+
+I applied core OOP principles deliberately: abstract base classes to model shared structure without allowing meaningless instantiation, generic repositories to avoid duplicating CRUD logic, and controlled mutability through access modifiers and private constructors. I worked with C# features beyond basic syntax — async/await, generics with type constraints, expression trees vs. delegates (and why EF Core needs the former to generate SQL), pattern matching, and stream-based file handling.
+
+On the data side, I designed relational schemas from scratch — entities, keys, one-to-many/one-to-one relationships, and owned types — enforced integrity through database-level constraints, managed schema evolution through EF Core migrations, and learned to distinguish deferred (IQueryable) from in-memory (IEnumerable) query execution for performance.
+
+Along the way, I debugged real, non-trivial issues: broken DI configurations, migration and seeding order problems, AutoMapper mapping gaps, Redis caching logic, and project/build configuration errors — troubleshooting that goes beyond writing new features into understanding why an application actually behaves the way it does.`" 
+    [title]="'Front-End Developer'"
+    [CR]="'Training Experience'"
+    >
+    <div class="pb-5">
+        <ul class="text-gray-300 text-sm">
+            <li><span class="font-bold">ASP.NET Core (MVC & Web API):</span> Building layered web apps and REST APIs — controllers, routing, model binding, middleware, and REST conventions (status codes, DTOs, filtering, sorting, pagination).</li>
+            <li><span class="font-bold">C# & Object-Oriented Design:</span> Modern C# (generics, async/await, LINQ, expression trees, pattern matching) applied through OOP principles — abstract base classes, generic repositories, and controlled mutability.</li>
+            <li><span class="font-bold">Entity Framework Core & SQL Server:</span> Code-first schema design, Fluent API, migrations, relationship modeling, database-level constraints, and query optimization via IQueryable.</li>
+            <li><span class="font-bold">Architectural Patterns:</span> Onion Architecture, Repository/Unit of Work, and Specification pattern for decoupled, maintainable systems.</li>
+            <li><span class="font-bold">Redis & Caching:</span> Basket storage and response caching, including custom caching middleware.</li>
+            <li><span class="font-bold">Identity, Mapping & Payments:</span> Authentication and role-based authorization with ASP.NET Core Identity, AutoMapper for entity-to-DTO mapping, and Stripe payment integration.</li>
+            <li><span class="font-bold">Debugging & Problem Solving:</span> Diagnosing issues across build configuration, dependency injection, EF Core migrations, and runtime logic.</li>
+
+        </ul>
     </div>
+    </app-exp-page>
 }
 @else if (cardId=='5') 
 {
     
     <app-exp-page
-    [empType]="'Internship'"
+    [empType]="'Training'"
     [period]="'Jul 2024 - Dec 2024'"
     [compDesc]="'IT Gate Is an Egyptian IT learning charity organization established in 2008 in Cairo-Egypt. They are specialize in the IT learning solutions and they are a leading credited training center for most industrial companies like Cisco, Microsoft, Juniper, Oracle and Sun.'"
     [location]="'Remote'"
     [comp]="'IT Gate Academy'"
     [roleDesc]="'This extensive course provided comprehensive training across critical IT infrastructure domains. Content focused on Advanced Networking (CCNA) principles, Enterprise Server Administration (MCSA), and Next-Generation Security Management. The curriculum specifically included hands-on expertise with industry-leading platforms, notably Sophos Firewall and the Fortinet Network Security Expert (NSE 4) certification path, ensuring high proficiency in deploying and managing robust enterprise-grade network security solutions.'" 
     [title]="'IT Infrastructure Specialist'"
-    [CR]="'Course Content'"
+    [CR]="'Training Experience'"
     >
     <div class="pb-5">
         <ul class="text-gray-300 text-sm">
@@ -138,14 +164,14 @@
 {
     
     <app-exp-page
-    [empType]="'Internship'"
+    [empType]="'Training'"
     [period]="'Mar 2025 - Nov 2025'"
     [compDesc]="'Route Academy is a future-focused tech education provider and talent accelerator committed to equipping individuals with the practical skills, mindset, and real-world experience needed to thrive in the ever-evolving digital economy. We specialize in industry-aligned bootcamps, upskilling programs, and career support to launch successful tech careers and build high-impact software professionals.'"
     [location]="'Remote'"
     [comp]="'Route Academy'"
     [roleDesc]="'This comprehensive Front-End Development course provided mastery over the core technology stack, beginning with HTML5 for semantic structure and CSS3, focusing heavily on modern layout techniques like Flexbox and CSS Grid for fully responsive design. A significant portion of the curriculum covered advanced JavaScript (ES6+), including DOM manipulation, asynchronous programming (Fetch/Promises), and working with JSON APIs. The course then transitioned into professional workflow, offering hands-on training in Git and GitHub for version control, using npm for dependency management, and an in-depth study of the Angular framework. This included core concepts like TypeScript, component architecture, services, routing, and reactive programming, culminating in the development of complex, industry-standard portfolio projects.'" 
     [title]="'Front-End Developer'"
-    [CR]="'Course Content'"
+    [CR]="'Training Experience'"
     >
     <div class="pb-5">
         <ul class="text-gray-300 text-sm">

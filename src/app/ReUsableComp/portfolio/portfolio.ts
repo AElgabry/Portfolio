@@ -12,7 +12,7 @@ export class Portfolio {
   @Input() title!:string
   @Input() description!:string
   @Input() details!:string
-  @Input() demo!:string
+  @Input() demo:string =""
   @Input() logo!:string
 
 
